@@ -1,0 +1,322 @@
+#VRML V2.0 utf8 Solid Edge VRML Export V1.2b
+
+# Disclaimer
+#
+# Please carefully read the disclaimer before using any of this data. Your use of this data constitutes your acceptance of the terms and conditions set forth below.
+#
+# The information within the data (“Information”) has been provided to you free of charge for your use according to the terms of the 
+# Creative Commons Attribution-ShareAlike 4.0 International Public License and remains the sole property of Würth Elektronik eiSos GmbH & Co. KG. 
+# While Würth Elektronik eiSos GmbH & Co. KG has used reasonable efforts to ensure its accuracy, Würth Elektronik eiSos GmbH & Co. KG. does not 
+# guarantee that it is error-free, nor makes any other representation, warranty or guarantee that the Information is completely accurate or up-to-date. 
+# In many cases, the Information  has been simplified to remove proprietary detail while maintaining critical interface geometric detail for your use. 
+# Würth Elektronik eiSos GmbH & Co. KG expressly disclaims all implied warranties regarding this Information, including but not limited to any 
+# implied warranties or merchantability or fitness for a purpose. This also applies if you translate, alter, arrange, transform, or otherwise modify the Information in any way, shape or form. 
+#
+# Würth Elektronik eiSos GmbH & Co. KG will in no case be liable for your use, or the results of your use, of the Information or any accompanying written materials. 
+# IT IS YOUR RESPONSIBILITY TO VERIFY THE RESULTS OF YOUR USE OF THIS INFORMATION IN YOUR OWN PARTICULAR ENGINEERING AND PRODUCT ENVIRONMENT AND YOU ASSUME THE ENTIRE 
+# RISK OF DOING SO OR FAILING TO DO SO. IN NO CASE WILL WÜRTH ELEKTRONIK EISOS GMBH & CO. KG BE LIABLE FOR YOUR USE, OR THE RESULTS OF YOUR USE OF THE INFORMATION OR 
+# ANY ACCOMPANYING WRITTEN MATERIAL IF YOU TRANSLATE, ALTER, ARRANGE, TRANSFORM, OR OTHERWISE MODIFY THE INFORMATION IN ANY WAY, SHAPE OR FORM.
+#
+# In no event will Würth Elektronik eiSos GmbH & Co. KG or its contractors, directors, officers, employees, affiliates or distributors be liable for any direct, indirect, 
+# special, incidental or consequential damages (including but not limited to, damages for lost business, lost profits, business interruptions and loss of information) arising
+# from your use of, or your inability to use the Information or any accompanying written materials, even if Würth Elektronik eiSos GmbH & Co. KG has been advised of the possibility of such damages. 
+#
+# Würth Elektronik eiSos GmbH & Co. KG reserves the right to change any portion of the Information at any time without notice. 
+# You are obliged to use the Information in accordance with the Creative Commons Attribution-ShareAlike 4.0 International Public License. 
+# The following exception to the Creative Commons Attribution-ShareAlike 4.0 International Public License applies to your use of the Information: 
+# To the extent that the creation of electronic designs that use 'Licensed Material' can be considered to be 'Adapted Material', then the copyright holder waives article 3 of 
+# the license with respect to these designs and any generated files which use data provided as part of the 'Licensed Material'. You are free to use the library data in your 
+# own projects without the obligation to share your project files under this or any other license agreement.  However, if you wish to redistribute these libraries, or parts 
+# thereof (including in modified form) as a collection then the exception above does not apply.
+#
+
+Group {
+ children [
+  WorldInfo { title "Produced using Solid Edge VRML Export, by Siemens PLM Software, Inc." }
+  DEF Main Viewpoint {
+   position 25.5 -67.6 25.7
+   orientation	0.954 0.174 0.246 1.28
+   fieldOfView	0.00793
+   description "Main View"
+  }
+  DEF Top Viewpoint {
+   position 0 0 103
+   orientation	1 0 0 0
+   fieldOfView	0.00793
+   description "Top View"
+  }
+  DEF Bottom Viewpoint {
+   position 0 0 -103
+   orientation	1 0 0 3.14
+   fieldOfView	0.00793
+   description "Bottom View"
+  }
+  DEF Front Viewpoint {
+   position 0 -62.9 0.118
+   orientation	1 0 0 1.57
+   fieldOfView	0.00793
+   description "Front View"
+  }
+  DEF Back Viewpoint {
+   position 0 62.9 0.118
+   orientation	0 0.707 0.707 3.14
+   fieldOfView	0.00793
+   description "Back View"
+  }
+  DEF Right Viewpoint {
+   position 50.4 0 0.118
+   orientation	0.577 0.577 0.577 2.09
+   fieldOfView	0.00793
+   description "Right View"
+  }
+  DEF Left Viewpoint {
+   position -50.4 0 0.118
+   orientation	0.577 -0.577 -0.577 2.09
+   fieldOfView	0.00793
+   description "Left View"
+  }
+  DEF TopFrontRightIso Viewpoint {
+   position 55.8 -55.8 28
+   orientation	0.783 0.335 0.447 1.46
+   fieldOfView	0.00793
+   description "TopFrontRightIso View"
+  }
+  DEF TopFrontLeftIso Viewpoint {
+   position -55.8 -55.8 28
+   orientation	0.783 -0.335 -0.447 1.46
+   fieldOfView	0.00793
+   description "TopFrontLeftIso View"
+  }
+  DEF TopBackLeftIso Viewpoint {
+   position -55.8 55.8 28
+   orientation	-0.234 0.547 0.781 3.75
+   fieldOfView	0.00793
+   description "TopBackLeftIso View"
+  }
+  DEF TopBackRightIso Viewpoint {
+   position 55.8 55.8 28
+   orientation	0.234 0.547 0.781 2.54
+   fieldOfView	0.00793
+   description "TopBackRightIso View"
+  }
+  NavigationInfo {
+   type [ "EXAMINE","ANY" ]
+   headlight TRUE
+  }
+  Background { skyColor 1 1 1 }
+  Group {
+   children [
+    DEF RightLight DirectionalLight {
+    	direction -0.632455 0.547723 -0.547723
+    	intensity  0.35
+    }
+    DEF LeftLight DirectionalLight {
+    	direction  0.632455 0.547723 -0.547723
+    	intensity  0.35
+    }
+    DEF BackLight DirectionalLight {
+    	direction  0 -0.707107 -0.707107
+    	intensity  0.35
+    }
+    DEF BottomLight DirectionalLight {
+    	direction  0 0 1
+    	intensity  0.35
+    }
+   Shape {
+    appearance DEF S0x4006F111 Appearance {
+     material Material {
+      ambientIntensity 0.0627
+      diffuseColor 0.0627 0.0627 0.0627
+      emissiveColor 0 0 0
+      specularColor 1 1 1
+      shininess 1
+      transparency 0
+     }
+    }
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -1 0 0,-1 0 0,-1 0 0,-1 0 0 ] }
+     coord Coordinate { point [ -.4921 -.3937 .2362,-.4921 -.3937 0,-.4921 .3936 .2362,-.4921 .3936 0 ] }
+     coordIndex [ 0,2,1,-1,3,1,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F111
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 1 0 0,1 0 0,1 0 0,1 0 0 ] }
+     coord Coordinate { point [ .4921 -.3937 .2362,.4921 -.3937 0,.4921 .3936 .2362,.4921 .3936 0 ] }
+     coordIndex [ 3,2,1,-1,0,1,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F111
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 -1,0 0 -1,0 0 -1,0 0 -1 ] }
+     coord Coordinate { point [ -.2165 .3936 0,-.2165 -.3937 0,-.4921 -.3937 0,-.4921 .3936 0 ] }
+     coordIndex [ 3,0,2,-1,1,2,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F111
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0 ] }
+     coord Coordinate { point [ .4921 .3936 .2362,.4921 .3936 0,.2165 .3936 0,.2165 .3936 0,-.2165 .3936 0,-.2165 .3936 0,-.4921 .3936 .2362,-.4921 .3936 0 ] }
+     coordIndex [ 4,7,6,-1,0,1,2,-1,3,5,2,-1,4,2,5,-1,2,4,0,-1,6,0,4,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F111
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0 ] }
+     coord Coordinate { point [ .4921 -.3937 .2362,.4921 -.3937 0,.2165 -.3937 0,.2165 -.3937 0,-.2165 -.3937 0,-.2165 -.3937 0,-.4921 -.3937 .2362,-.4921 -.3937 0 ] }
+     coordIndex [ 2,1,0,-1,6,7,5,-1,4,3,5,-1,2,5,3,-1,5,2,6,-1,0,6,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F111
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 1,0 0 1,0 0 1,0 0 1 ] }
+     coord Coordinate { point [ .4921 -.3937 .2362,.4921 .3936 .2362,-.4921 -.3937 .2362,-.4921 .3936 .2362 ] }
+     coordIndex [ 3,2,1,-1,0,1,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F111
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 -1,0 0 -1,0 0 -1,0 0 -1 ] }
+     coord Coordinate { point [ .4921 -.3937 0,.4921 .3936 0,.2165 -.3937 0,.2165 .3936 0 ] }
+     coordIndex [ 3,1,2,-1,0,2,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F111
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 -1,0 0 -1,0 0 -1,0 0 -1 ] }
+     coord Coordinate { point [ .2165 -.3937 0,.2165 .3936 0,-.2165 -.3937 0,-.2165 .3936 0 ] }
+     coordIndex [ 1,0,3,-1,2,3,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F111
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 1 0 0,1 0 0,1 0 0,1 0 0 ] }
+     coord Coordinate { point [ .2165 -.3937 0,.2165 -.3937 0,.2165 .3936 0,.2165 .3936 0 ] }
+     coordIndex [ 2,0,3,-1,1,3,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F111
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -1 0 0,-1 0 0,-1 0 0,-1 0 0 ] }
+     coord Coordinate { point [ -.2165 -.3937 0,-.2165 .3936 0,-.2165 .3936 0,-.2165 -.3937 0 ] }
+     coordIndex [ 3,1,0,-1,2,0,1,-1 ] }
+    }
+   Shape {
+    appearance DEF S0x4006FCCC Appearance {
+     material Material {
+      ambientIntensity 0.753
+      diffuseColor 0.753 0.753 0.753
+      emissiveColor 0 0 0
+      specularColor 1 1 1
+      shininess 1
+      transparency 0
+     }
+    }
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 -1 0,0 -1 0,0 -1 0,0 -1 0 ] }
+     coord Coordinate { point [ -.2165 -.3937 0,-.2165 -.3937 0,-.4921 -.3937 0,-.4921 -.3937 0 ] }
+     coordIndex [ 3,1,2,-1,0,2,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006FCCC
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 1 0,0 1 0,0 1 0,0 1 0 ] }
+     coord Coordinate { point [ -.2165 .3936 0,-.2165 .3936 0,-.4921 .3937 0,-.4921 .3937 0 ] }
+     coordIndex [ 1,3,0,-1,2,0,3,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006FCCC
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 1 0 0,1 0 0,1 0 0,1 0 0 ] }
+     coord Coordinate { point [ -.2165 .3936 0,-.2165 .3936 0,-.2165 -.3937 0,-.2165 -.3937 0 ] }
+     coordIndex [ 3,1,2,-1,0,2,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006FCCC
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 -1,0 0 -1,0 0 -1,0 0 -1 ] }
+     coord Coordinate { point [ -.2165 .3936 0,-.2165 -.3937 0,-.4921 .3937 0,-.4921 -.3937 0 ] }
+     coordIndex [ 2,0,3,-1,1,3,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006FCCC
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 1,0 0 1,0 0 1,0 0 1 ] }
+     coord Coordinate { point [ -.2165 .3936 0,-.2165 -.3937 0,-.4921 .3937 0,-.4921 -.3937 0 ] }
+     coordIndex [ 0,2,1,-1,3,1,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006FCCC
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -1 0 0,-1 0 0,-1 0 0,-1 0 0 ] }
+     coord Coordinate { point [ -.4921 .3937 0,-.4921 .3937 0,-.4921 -.3937 0,-.4921 -.3937 0 ] }
+     coordIndex [ 1,3,0,-1,2,0,3,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006FCCC
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 -1 0,0 -1 0,0 -1 0,0 -1 0 ] }
+     coord Coordinate { point [ .4921 -.3937 0,.4921 -.3937 0,.2165 -.3937 0,.2165 -.3937 0 ] }
+     coordIndex [ 3,1,2,-1,0,2,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006FCCC
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 1 0,0 1 0,0 1 0,0 1 0 ] }
+     coord Coordinate { point [ .4921 .3937 0,.4921 .3937 0,.2165 .3936 0,.2165 .3936 0 ] }
+     coordIndex [ 1,3,0,-1,2,0,3,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006FCCC
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 1 0 0,1 0 0,1 0 0,1 0 0 ] }
+     coord Coordinate { point [ .4921 -.3937 0,.4921 -.3937 0,.4921 .3937 0,.4921 .3937 0 ] }
+     coordIndex [ 1,3,0,-1,2,0,3,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006FCCC
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 -1,0 0 -1,0 0 -1,0 0 -1 ] }
+     coord Coordinate { point [ .4921 -.3937 0,.4921 .3937 0,.2165 -.3937 0,.2165 .3936 0 ] }
+     coordIndex [ 3,1,2,-1,0,2,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006FCCC
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 1,0 0 1,0 0 1,0 0 1 ] }
+     coord Coordinate { point [ .4921 -.3937 0,.4921 .3937 0,.2165 -.3937 0,.2165 .3936 0 ] }
+     coordIndex [ 1,3,0,-1,2,0,3,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006FCCC
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -1 0 0,-1 0 0,-1 0 0,-1 0 0 ] }
+     coord Coordinate { point [ .2165 -.3937 0,.2165 -.3937 0,.2165 .3936 0,.2165 .3936 0 ] }
+     coordIndex [ 3,1,2,-1,0,2,1,-1 ] }
+    }
+   ]
+  }
+ ]
+}
