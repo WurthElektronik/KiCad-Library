@@ -1,4 +1,4 @@
-**KiCad Libraries for Würth Elektronik Products**
+**KiCad Library for Würth Elektronik Products**
 =
 
 ## Introduction
