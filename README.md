@@ -6,7 +6,7 @@ KiCad is a free and open-source software suite for electronic design automation 
 
 [Würth Elektronik](https://www.we-online.com/) has a growing portfolio of models available for use in KiCad. These models allow KiCad users to easily design schematic and layout and view 3D model before producing PCB.
 
-For how to use models in GitHub repository, you can refer to the help document in this folder.
+For how to use models in GitHub repository, you can refer to the User_Guide_WE_KiCad_Library in this folder. If you have any advice or questions, please send email to libraries@we-online.com or Melon.Huang@we-online.com to let us know.
 
 **Please read Disclaimer carefully before downloading and using Würth Elektronik Models.**
 
@@ -19,6 +19,8 @@ For how to use models in GitHub repository, you can refer to the help document i
   * .kicad_mod
 * symbols
   * .kicad_sym
+* netlists (attached in symbol, coming soon, will be released in the near future)
+  * .lib
 
 ## Component Classification
 * WE - Electromechanical Components
