@@ -1,0 +1,1044 @@
+#VRML V2.0 utf8 Solid Edge VRML Export V1.2b
+
+Group {
+ children [
+  WorldInfo { title "Produced using Solid Edge VRML Export, by Siemens PLM Software, Inc." }
+  DEF Main Viewpoint {
+   position 133 -352 134
+   orientation	0.954 0.174 0.246 1.28
+   fieldOfView	0.00793
+   description "Main View"
+  }
+  DEF Top Viewpoint {
+   position 0 0 147
+   orientation	1 0 0 0
+   fieldOfView	0.00793
+   description "Top View"
+  }
+  DEF Bottom Viewpoint {
+   position 0 0 -145
+   orientation	1 0 0 3.14
+   fieldOfView	0.00793
+   description "Bottom View"
+  }
+  DEF Front Viewpoint {
+   position 0 -339 1.16
+   orientation	1 0 0 1.57
+   fieldOfView	0.00793
+   description "Front View"
+  }
+  DEF Back Viewpoint {
+   position 0 339 1.16
+   orientation	0 0.707 0.707 3.14
+   fieldOfView	0.00793
+   description "Back View"
+  }
+  DEF Right Viewpoint {
+   position 339 0 1.16
+   orientation	0.577 0.577 0.577 2.09
+   fieldOfView	0.00793
+   description "Right View"
+  }
+  DEF Left Viewpoint {
+   position -339 0 1.16
+   orientation	0.577 -0.577 -0.577 2.09
+   fieldOfView	0.00793
+   description "Left View"
+  }
+  DEF TopFrontRightIso Viewpoint {
+   position 281 -281 142
+   orientation	0.783 0.335 0.447 1.46
+   fieldOfView	0.00793
+   description "TopFrontRightIso View"
+  }
+  DEF TopFrontLeftIso Viewpoint {
+   position -281 -281 142
+   orientation	0.783 -0.335 -0.447 1.46
+   fieldOfView	0.00793
+   description "TopFrontLeftIso View"
+  }
+  DEF TopBackLeftIso Viewpoint {
+   position -281 281 142
+   orientation	-0.234 0.547 0.781 3.75
+   fieldOfView	0.00793
+   description "TopBackLeftIso View"
+  }
+  DEF TopBackRightIso Viewpoint {
+   position 281 281 142
+   orientation	0.234 0.547 0.781 2.54
+   fieldOfView	0.00793
+   description "TopBackRightIso View"
+  }
+  NavigationInfo {
+   type [ "EXAMINE","ANY" ]
+   headlight TRUE
+  }
+  Background { skyColor 1 1 1 }
+  Group {
+   children [
+    DEF RightLight DirectionalLight {
+    	direction -0.632455 0.547723 -0.547723
+    	intensity  0.35
+    }
+    DEF LeftLight DirectionalLight {
+    	direction  0.632455 0.547723 -0.547723
+    	intensity  0.35
+    }
+    DEF BackLight DirectionalLight {
+    	direction  0 -0.707107 -0.707107
+    	intensity  0.35
+    }
+    DEF BottomLight DirectionalLight {
+    	direction  0 0 1
+    	intensity  0.35
+    }
+   Shape {
+    appearance DEF S0x4006F29D Appearance {
+     material Material {
+      ambientIntensity 0.502
+      diffuseColor 0.816 0.565 0.125
+      emissiveColor 0 0 0
+      specularColor 1 1 1
+      shininess 1
+      transparency 0
+     }
+    }
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -1 0 0,-1 0 0,-1 0 0,-1 0 0 ] }
+     coord Coordinate { point [ -.3287 -.1712 .2952,-.3287 -.1712 .3897,-.3287 -.3287 .2952,-.3287 -.3287 .3897 ] }
+     coordIndex [ 0,2,1,-1,3,1,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0 ] }
+     coord Coordinate { point [ -.1777 -.3287 .2338,-.207 -.3287 .1543,-.1712 -.3287 .2952,-.2577 -.3287 .0864,-.369 -.3287 .1978,-.3392 -.3287 .2425,-.3287 -.3287 .2952,-.3256 -.3287 .0357,-.4138 -.3287 .1679,-.4051 -.3287 .0064,-.4665 -.3287 0,-.4665 -.3287 .1574,-.7873 -.3287 0,-.7873 -.3287 .1574,-.3287 -.3287 .3897,-.1712 -.3287 .3897 ] }
+     coordIndex [ 11,13,12,-1,15,14,2,-1,6,2,14,-1,2,6,0,-1,5,0,6,-1,12,10,11,-1,9,11,10,-1,11,9,8,-1,7,8,9,-1,8,7,4,-1,3,4,7,-1,4,3,5,-1,1,5,3,-1,5,1,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0 ] }
+     coord Coordinate { point [ -.1777 -.1712 .2338,-.1712 -.1712 .2952,-.207 -.1712 .1543,-.2577 -.1712 .0864,-.3256 -.1712 .0357,-.3392 -.1712 .2425,-.3287 -.1712 .2952,-.369 -.1712 .1978,-.4138 -.1712 .1679,-.4051 -.1712 .0064,-.4665 -.1712 0,-.4665 -.1712 .1574,-.7873 -.1712 0,-.7873 -.1712 .1574,-.3287 -.1712 .3897,-.1712 -.1712 .3897 ] }
+     coordIndex [ 6,14,15,-1,15,1,6,-1,0,6,1,-1,6,0,5,-1,2,5,0,-1,5,2,7,-1,3,7,2,-1,7,3,8,-1,12,13,10,-1,11,10,13,-1,10,11,9,-1,8,9,11,-1,9,8,4,-1,3,4,8,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 .98 .196,0 .98 .196,0 .98 .196,0 .98 .196 ] }
+     coord Coordinate { point [ -.1712 -.1712 2.1279,-.3287 -.1712 2.1279,-.2106 -.2106 2.3247,-.2893 -.2106 2.3247 ] }
+     coordIndex [ 2,0,3,-1,1,3,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ .98 0 .196,.98 0 .196,.98 0 .196,.98 0 .196 ] }
+     coord Coordinate { point [ -.1712 -.1712 2.1279,-.2106 -.2106 2.3247,-.2106 -.2893 2.3247,-.1712 -.3287 2.1279 ] }
+     coordIndex [ 0,1,3,-1,2,3,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -.98 0 .196,-.98 0 .196,-.98 0 .196,-.98 0 .196 ] }
+     coord Coordinate { point [ -.3287 -.1712 2.1279,-.2893 -.2106 2.3247,-.2893 -.2893 2.3247,-.3287 -.3287 2.1279 ] }
+     coordIndex [ 1,0,2,-1,3,2,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 -.98 .196,0 -.98 .196,0 -.98 .196,0 -.98 .196 ] }
+     coord Coordinate { point [ -.2106 -.2893 2.3247,-.2893 -.2893 2.3247,-.1712 -.3287 2.1279,-.3287 -.3287 2.1279 ] }
+     coordIndex [ 1,3,0,-1,2,0,3,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -.196 -.98 0,-.196 -.98 0,-.196 -.98 0,-.196 -.98 0 ] }
+     coord Coordinate { point [ -.9842 -.2893 .0393,-.9842 -.2893 .1181,-.7873 -.3287 0,-.7873 -.3287 .1574 ] }
+     coordIndex [ 3,1,2,-1,0,2,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -.196 0 .98,-.196 0 .98,-.196 0 .98,-.196 0 .98 ] }
+     coord Coordinate { point [ -.7873 -.1712 .1574,-.9842 -.2106 .1181,-.9842 -.2893 .1181,-.7873 -.3287 .1574 ] }
+     coordIndex [ 2,3,1,-1,0,1,3,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -.196 0 -.98,-.196 0 -.98,-.196 0 -.98,-.196 0 -.98 ] }
+     coord Coordinate { point [ -.7873 -.1712 0,-.9842 -.2106 .0393,-.9842 -.2893 .0393,-.7873 -.3287 0 ] }
+     coordIndex [ 3,2,0,-1,1,0,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -.196 .98 0,-.196 .98 0,-.196 .98 0,-.196 .98 0 ] }
+     coord Coordinate { point [ -.7873 -.1712 0,-.7873 -.1712 .1574,-.9842 -.2106 .0393,-.9842 -.2106 .1181 ] }
+     coordIndex [ 0,2,1,-1,3,1,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 -1 0,0 -1 0,0 -1 0,0 -1 0 ] }
+     coord Coordinate { point [ -.1712 -.3287 2.1279,-.3287 -.3287 .8267,-.3287 -.3287 2.1279,-.1712 -.3287 .8267 ] }
+     coordIndex [ 0,2,3,-1,1,3,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 1 0,0 1 0,0 1 0,0 1 0 ] }
+     coord Coordinate { point [ -.1712 -.1712 .8267,-.1712 -.1712 2.1279,-.3287 -.1712 .8267,-.3287 -.1712 2.1279 ] }
+     coordIndex [ 2,3,0,-1,1,0,3,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -1 0 0,-1 0 0,-1 0 0,-1 0 0 ] }
+     coord Coordinate { point [ -.3287 -.1712 .8267,-.3287 -.1712 2.1279,-.3287 -.3287 .8267,-.3287 -.3287 2.1279 ] }
+     coordIndex [ 3,1,2,-1,0,2,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -.923 0 .382,-1 0 0,-.707 0 .707,-.382 0 .923,0 0 1,-.707 0 .707,-.923 0 .382,-1 0 0,-.382 0 .923,0 0 1 ] }
+     coord Coordinate { point [ -.3392 -.1712 .2425,-.3287 -.1712 .2952,-.369 -.1712 .1978,-.4138 -.1712 .1679,-.4665 -.1712 .1574,-.369 -.3287 .1978,-.3392 -.3287 .2425,-.3287 -.3287 .2952,-.4138 -.3287 .1679,-.4665 -.3287 .1574 ] }
+     coordIndex [ 4,9,3,-1,8,3,9,-1,3,8,2,-1,5,2,8,-1,2,5,0,-1,6,0,5,-1,0,6,1,-1,7,1,6,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 1,0 0 1,0 0 1,0 0 1 ] }
+     coord Coordinate { point [ -.4665 -.1712 .1574,-.7873 -.1712 .1574,-.4665 -.3287 .1574,-.7873 -.3287 .1574 ] }
+     coordIndex [ 3,2,1,-1,0,1,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -1 0 0,-1 0 0,-1 0 0,-1 0 0 ] }
+     coord Coordinate { point [ -.9842 -.2106 .0393,-.9842 -.2106 .1181,-.9842 -.2893 .0393,-.9842 -.2893 .1181 ] }
+     coordIndex [ 3,1,2,-1,0,2,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 -1,0 0 -1,0 0 -1,0 0 -1 ] }
+     coord Coordinate { point [ -.4665 -.1712 0,-.7873 -.1712 0,-.4665 -.3287 0,-.7873 -.3287 0 ] }
+     coordIndex [ 1,0,3,-1,2,3,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ .978 0 -.207,1 0 0,.878 0 -.477,.707 0 -.707,.477 0 -.878,.207 0 -.978,0 0 -1,.978 0 -.207,.707 0 -.707,.878 0 -.477,1 0 0,.477 0 -.878,.207 0 -.978,0 0 -1 ] }
+     coord Coordinate { point [ -.1777 -.1712 .2338,-.1712 -.1712 .2952,-.207 -.1712 .1543,-.2577 -.1712 .0864,-.3256 -.1712 .0357,-.4051 -.1712 .0064,-.4665 -.1712 0,-.1777 -.3287 .2338,-.2577 -.3287 .0864,-.207 -.3287 .1543,-.1712 -.3287 .2952,-.3256 -.3287 .0357,-.4051 -.3287 .0064,-.4665 -.3287 0 ] }
+     coordIndex [ 13,6,5,-1,13,5,12,-1,4,12,5,-1,12,4,11,-1,3,11,4,-1,11,3,8,-1,2,8,3,-1,8,2,9,-1,0,9,2,-1,9,0,7,-1,1,7,0,-1,7,1,10,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 1 0 0,1 0 0,1 0 0,1 0 0 ] }
+     coord Coordinate { point [ -.1712 -.1712 .8267,-.1712 -.1712 2.1279,-.1712 -.3287 2.1279,-.1712 -.3287 .8267 ] }
+     coordIndex [ 1,2,0,-1,3,0,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 1,0 0 1,0 0 1,0 0 1 ] }
+     coord Coordinate { point [ -.2106 -.2106 2.3247,-.2893 -.2106 2.3247,-.2106 -.2893 2.3247,-.2893 -.2893 2.3247 ] }
+     coordIndex [ 1,3,0,-1,2,0,3,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0 ] }
+     coord Coordinate { point [ .1712 -.1712 .2952,.1777 -.1712 .2338,.207 -.1712 .1543,.2577 -.1712 .0864,.3256 -.1712 .0357,.3287 -.1712 .2952,.3392 -.1712 .2425,.369 -.1712 .1978,.4051 -.1712 .0064,.4138 -.1712 .1679,.4665 -.1712 0,.4665 -.1712 .1574,.7873 -.1712 0,.7873 -.1712 .1574,.1712 -.1712 .3897,.3287 -.1712 .3897 ] }
+     coordIndex [ 11,13,12,-1,14,15,0,-1,5,0,15,-1,0,5,1,-1,6,1,5,-1,12,10,11,-1,8,11,10,-1,11,8,9,-1,4,9,8,-1,9,4,7,-1,3,7,4,-1,7,3,6,-1,2,6,3,-1,6,2,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0 ] }
+     coord Coordinate { point [ .1712 -.3287 .2952,.1777 -.3287 .2338,.207 -.3287 .1543,.2577 -.3287 .0864,.3256 -.3287 .0357,.3287 -.3287 .2952,.3392 -.3287 .2425,.369 -.3287 .1978,.4051 -.3287 .0064,.4138 -.3287 .1679,.4665 -.3287 0,.4665 -.3287 .1574,.7873 -.3287 0,.7873 -.3287 .1574,.1712 -.3287 .3897,.3287 -.3287 .3897 ] }
+     coordIndex [ 5,15,14,-1,14,0,5,-1,1,5,0,-1,5,1,6,-1,2,6,1,-1,6,2,7,-1,3,7,2,-1,7,3,9,-1,12,13,10,-1,11,10,13,-1,10,11,8,-1,9,8,11,-1,8,9,4,-1,3,4,9,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 1 0 0,1 0 0,1 0 0,1 0 0 ] }
+     coord Coordinate { point [ .3287 -.1712 .2952,.3287 -.1712 .3897,.3287 -.3287 .2952,.3287 -.3287 .3897 ] }
+     coordIndex [ 2,0,3,-1,1,3,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 -.98 .196,0 -.98 .196,0 -.98 .196,0 -.98 .196 ] }
+     coord Coordinate { point [ .2106 -.2893 2.3247,.2893 -.2893 2.3247,.1712 -.3287 2.1279,.3287 -.3287 2.1279 ] }
+     coordIndex [ 0,2,1,-1,3,1,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -.98 0 .196,-.98 0 .196,-.98 0 .196,-.98 0 .196 ] }
+     coord Coordinate { point [ .1712 -.1712 2.1279,.2106 -.2106 2.3247,.2106 -.2893 2.3247,.1712 -.3287 2.1279 ] }
+     coordIndex [ 3,2,0,-1,1,0,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ .98 0 .196,.98 0 .196,.98 0 .196,.98 0 .196 ] }
+     coord Coordinate { point [ .3287 -.1712 2.1279,.2893 -.2106 2.3247,.2893 -.2893 2.3247,.3287 -.3287 2.1279 ] }
+     coordIndex [ 2,3,1,-1,0,1,3,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 .98 .196,0 .98 .196,0 .98 .196,0 .98 .196 ] }
+     coord Coordinate { point [ .1712 -.1712 2.1279,.3287 -.1712 2.1279,.2106 -.2106 2.3247,.2893 -.2106 2.3247 ] }
+     coordIndex [ 3,1,2,-1,0,2,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ .196 .98 0,.196 .98 0,.196 .98 0,.196 .98 0 ] }
+     coord Coordinate { point [ .7873 -.1712 0,.7873 -.1712 .1574,.9842 -.2106 .0393,.9842 -.2106 .1181 ] }
+     coordIndex [ 1,3,0,-1,2,0,3,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ .196 0 .98,.196 0 .98,.196 0 .98,.196 0 .98 ] }
+     coord Coordinate { point [ .7873 -.1712 .1574,.9842 -.2106 .1181,.9842 -.2893 .1181,.7873 -.3287 .1574 ] }
+     coordIndex [ 1,0,2,-1,3,2,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ .196 0 -.98,.196 0 -.98,.196 0 -.98,.196 0 -.98 ] }
+     coord Coordinate { point [ .7873 -.1712 0,.9842 -.2106 .0393,.9842 -.2893 .0393,.7873 -.3287 0 ] }
+     coordIndex [ 0,1,3,-1,2,3,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ .196 -.98 0,.196 -.98 0,.196 -.98 0,.196 -.98 0 ] }
+     coord Coordinate { point [ .9842 -.2893 .0393,.9842 -.2893 .1181,.7873 -.3287 0,.7873 -.3287 .1574 ] }
+     coordIndex [ 2,0,3,-1,1,3,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 1 0,0 1 0,0 1 0,0 1 0 ] }
+     coord Coordinate { point [ .1712 -.1712 2.1279,.3287 -.1712 .8267,.3287 -.1712 2.1279,.1712 -.1712 .8267 ] }
+     coordIndex [ 0,2,3,-1,1,3,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 -1 0,0 -1 0,0 -1 0,0 -1 0 ] }
+     coord Coordinate { point [ .1712 -.3287 .8267,.1712 -.3287 2.1279,.3287 -.3287 .8267,.3287 -.3287 2.1279 ] }
+     coordIndex [ 2,3,0,-1,1,0,3,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 1 0 0,1 0 0,1 0 0,1 0 0 ] }
+     coord Coordinate { point [ .3287 -.1712 .8267,.3287 -.1712 2.1279,.3287 -.3287 .8267,.3287 -.3287 2.1279 ] }
+     coordIndex [ 1,3,0,-1,2,0,3,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 1 0 0,.923 0 .382,.707 0 .707,.382 0 .923,0 0 1,1 0 0,.923 0 .382,.707 0 .707,.382 0 .923,0 0 1 ] }
+     coord Coordinate { point [ .3287 -.1712 .2952,.3392 -.1712 .2425,.369 -.1712 .1978,.4138 -.1712 .1679,.4665 -.1712 .1574,.3287 -.3287 .2952,.3392 -.3287 .2425,.369 -.3287 .1978,.4138 -.3287 .1679,.4665 -.3287 .1574 ] }
+     coordIndex [ 9,4,8,-1,3,8,4,-1,8,3,7,-1,2,7,3,-1,7,2,6,-1,1,6,2,-1,6,1,5,-1,0,5,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 1,0 0 1,0 0 1,0 0 1 ] }
+     coord Coordinate { point [ .4665 -.1712 .1574,.7873 -.1712 .1574,.4665 -.3287 .1574,.7873 -.3287 .1574 ] }
+     coordIndex [ 1,0,3,-1,2,3,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 1 0 0,1 0 0,1 0 0,1 0 0 ] }
+     coord Coordinate { point [ .9842 -.2106 .0393,.9842 -.2106 .1181,.9842 -.2893 .0393,.9842 -.2893 .1181 ] }
+     coordIndex [ 1,3,0,-1,2,0,3,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 -1,0 0 -1,0 0 -1,0 0 -1 ] }
+     coord Coordinate { point [ .4665 -.1712 0,.7873 -.1712 0,.4665 -.3287 0,.7873 -.3287 0 ] }
+     coordIndex [ 3,2,1,-1,0,1,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -1 0 0,-.978 0 -.207,-.878 0 -.477,-.707 0 -.707,-.477 0 -.878,-.207 0 -.978,0 0 -1,-1 0 0,-.978 0 -.207,-.878 0 -.477,-.707 0 -.707,-.477 0 -.878,-.207 0 -.978,0 0 -1 ] }
+     coord Coordinate { point [ .1712 -.1712 .2952,.1777 -.1712 .2338,.207 -.1712 .1543,.2577 -.1712 .0864,.3256 -.1712 .0357,.4051 -.1712 .0064,.4665 -.1712 0,.1712 -.3287 .2952,.1777 -.3287 .2338,.207 -.3287 .1543,.2577 -.3287 .0864,.3256 -.3287 .0357,.4051 -.3287 .0064,.4665 -.3287 0 ] }
+     coordIndex [ 6,13,12,-1,6,12,5,-1,11,5,12,-1,5,11,4,-1,10,4,11,-1,4,10,3,-1,9,3,10,-1,3,9,2,-1,8,2,9,-1,2,8,1,-1,7,1,8,-1,1,7,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -1 0 0,-1 0 0,-1 0 0,-1 0 0 ] }
+     coord Coordinate { point [ .1712 -.1712 2.1279,.1712 -.1712 .8267,.1712 -.3287 .8267,.1712 -.3287 2.1279 ] }
+     coordIndex [ 3,0,2,-1,1,2,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 1,0 0 1,0 0 1,0 0 1 ] }
+     coord Coordinate { point [ .2106 -.2106 2.3247,.2893 -.2106 2.3247,.2106 -.2893 2.3247,.2893 -.2893 2.3247 ] }
+     coordIndex [ 3,1,2,-1,0,2,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0 ] }
+     coord Coordinate { point [ .1712 .3287 .2952,.1777 .3287 .2338,.207 .3287 .1543,.2577 .3287 .0864,.3256 .3287 .0357,.3287 .3287 .2952,.3392 .3287 .2425,.369 .3287 .1978,.4051 .3287 .0064,.4138 .3287 .1679,.4665 .3287 0,.4665 .3287 .1574,.7873 .3287 0,.7873 .3287 .1574,.1712 .3287 .3897,.3287 .3287 .3897 ] }
+     coordIndex [ 11,13,12,-1,14,15,0,-1,5,0,15,-1,0,5,1,-1,6,1,5,-1,12,10,11,-1,8,11,10,-1,11,8,9,-1,4,9,8,-1,9,4,7,-1,3,7,4,-1,7,3,6,-1,2,6,3,-1,6,2,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0 ] }
+     coord Coordinate { point [ .1712 .1712 .2952,.1777 .1712 .2338,.207 .1712 .1543,.2577 .1712 .0864,.3256 .1712 .0357,.3287 .1712 .2952,.3392 .1712 .2425,.369 .1712 .1978,.4051 .1712 .0064,.4138 .1712 .1679,.4665 .1712 0,.4665 .1712 .1574,.7873 .1712 0,.7873 .1712 .1574,.1712 .1712 .3897,.3287 .1712 .3897 ] }
+     coordIndex [ 5,15,14,-1,14,0,5,-1,1,5,0,-1,5,1,6,-1,2,6,1,-1,6,2,7,-1,3,7,2,-1,7,3,9,-1,12,13,10,-1,11,10,13,-1,10,11,8,-1,9,8,11,-1,8,9,4,-1,3,4,9,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 1 0 0,1 0 0,1 0 0,1 0 0 ] }
+     coord Coordinate { point [ .3287 .3287 .2952,.3287 .3287 .3897,.3287 .1712 .2952,.3287 .1712 .3897 ] }
+     coordIndex [ 2,0,3,-1,1,3,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 -.98 .196,0 -.98 .196,0 -.98 .196,0 -.98 .196 ] }
+     coord Coordinate { point [ .2106 .2106 2.3247,.2893 .2106 2.3247,.1712 .1712 2.1279,.3287 .1712 2.1279 ] }
+     coordIndex [ 0,2,1,-1,3,1,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -.98 0 .196,-.98 0 .196,-.98 0 .196,-.98 0 .196 ] }
+     coord Coordinate { point [ .1712 .3287 2.1279,.2106 .2893 2.3247,.2106 .2106 2.3247,.1712 .1712 2.1279 ] }
+     coordIndex [ 3,2,0,-1,1,0,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ .98 0 .196,.98 0 .196,.98 0 .196,.98 0 .196 ] }
+     coord Coordinate { point [ .3287 .3287 2.1279,.2893 .2893 2.3247,.2893 .2106 2.3247,.3287 .1712 2.1279 ] }
+     coordIndex [ 2,3,1,-1,0,1,3,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 .98 .196,0 .98 .196,0 .98 .196,0 .98 .196 ] }
+     coord Coordinate { point [ .1712 .3287 2.1279,.3287 .3287 2.1279,.2106 .2893 2.3247,.2893 .2893 2.3247 ] }
+     coordIndex [ 3,1,2,-1,0,2,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ .196 .98 0,.196 .98 0,.196 .98 0,.196 .98 0 ] }
+     coord Coordinate { point [ .7873 .3287 0,.7873 .3287 .1574,.9842 .2893 .0393,.9842 .2893 .1181 ] }
+     coordIndex [ 1,3,0,-1,2,0,3,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ .196 0 .98,.196 0 .98,.196 0 .98,.196 0 .98 ] }
+     coord Coordinate { point [ .7873 .3287 .1574,.9842 .2893 .1181,.9842 .2106 .1181,.7873 .1712 .1574 ] }
+     coordIndex [ 1,0,2,-1,3,2,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ .196 0 -.98,.196 0 -.98,.196 0 -.98,.196 0 -.98 ] }
+     coord Coordinate { point [ .7873 .3287 0,.9842 .2893 .0393,.9842 .2106 .0393,.7873 .1712 0 ] }
+     coordIndex [ 0,1,3,-1,2,3,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ .196 -.98 0,.196 -.98 0,.196 -.98 0,.196 -.98 0 ] }
+     coord Coordinate { point [ .9842 .2106 .0393,.9842 .2106 .1181,.7873 .1712 0,.7873 .1712 .1574 ] }
+     coordIndex [ 2,0,3,-1,1,3,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 1 0,0 1 0,0 1 0,0 1 0 ] }
+     coord Coordinate { point [ .1712 .3287 2.1279,.3287 .3287 .8267,.3287 .3287 2.1279,.1712 .3287 .8267 ] }
+     coordIndex [ 0,2,3,-1,1,3,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 -1 0,0 -1 0,0 -1 0,0 -1 0 ] }
+     coord Coordinate { point [ .1712 .1712 .8267,.1712 .1712 2.1279,.3287 .1712 .8267,.3287 .1712 2.1279 ] }
+     coordIndex [ 2,3,0,-1,1,0,3,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 1 0 0,1 0 0,1 0 0,1 0 0 ] }
+     coord Coordinate { point [ .3287 .3287 .8267,.3287 .3287 2.1279,.3287 .1712 .8267,.3287 .1712 2.1279 ] }
+     coordIndex [ 1,3,0,-1,2,0,3,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 1 0 0,.923 0 .382,.707 0 .707,.382 0 .923,0 0 1,1 0 0,.923 0 .382,.707 0 .707,.382 0 .923,0 0 1 ] }
+     coord Coordinate { point [ .3287 .3287 .2952,.3392 .3287 .2425,.369 .3287 .1978,.4138 .3287 .1679,.4665 .3287 .1574,.3287 .1712 .2952,.3392 .1712 .2425,.369 .1712 .1978,.4138 .1712 .1679,.4665 .1712 .1574 ] }
+     coordIndex [ 9,4,8,-1,3,8,4,-1,8,3,7,-1,2,7,3,-1,7,2,6,-1,1,6,2,-1,6,1,5,-1,0,5,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 1,0 0 1,0 0 1,0 0 1 ] }
+     coord Coordinate { point [ .4665 .3287 .1574,.7873 .3287 .1574,.4665 .1712 .1574,.7873 .1712 .1574 ] }
+     coordIndex [ 1,0,3,-1,2,3,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 1 0 0,1 0 0,1 0 0,1 0 0 ] }
+     coord Coordinate { point [ .9842 .2893 .0393,.9842 .2893 .1181,.9842 .2106 .0393,.9842 .2106 .1181 ] }
+     coordIndex [ 1,3,0,-1,2,0,3,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 -1,0 0 -1,0 0 -1,0 0 -1 ] }
+     coord Coordinate { point [ .4665 .3287 0,.7873 .3287 0,.4665 .1712 0,.7873 .1712 0 ] }
+     coordIndex [ 3,2,1,-1,0,1,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -.978 0 -.207,-.878 0 -.477,-1 0 0,-.707 0 -.707,-.477 0 -.878,-.207 0 -.978,0 0 -1,-1 0 0,-.978 0 -.207,-.878 0 -.477,-.707 0 -.707,-.477 0 -.878,-.207 0 -.978,0 0 -1 ] }
+     coord Coordinate { point [ .1777 .3287 .2338,.207 .3287 .1543,.1712 .3287 .2952,.2577 .3287 .0864,.3256 .3287 .0357,.4051 .3287 .0064,.4665 .3287 0,.1712 .1712 .2952,.1777 .1712 .2338,.207 .1712 .1543,.2577 .1712 .0864,.3256 .1712 .0357,.4051 .1712 .0064,.4665 .1712 0 ] }
+     coordIndex [ 6,13,12,-1,6,12,5,-1,11,5,12,-1,5,11,4,-1,10,4,11,-1,4,10,3,-1,9,3,10,-1,3,9,1,-1,8,1,9,-1,1,8,0,-1,7,0,8,-1,0,7,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -1 0 0,-1 0 0,-1 0 0,-1 0 0 ] }
+     coord Coordinate { point [ .1712 .3287 2.1279,.1712 .3287 .8267,.1712 .1712 .8267,.1712 .1712 2.1279 ] }
+     coordIndex [ 3,0,2,-1,1,2,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 1,0 0 1,0 0 1,0 0 1 ] }
+     coord Coordinate { point [ .2106 .2893 2.3247,.2893 .2893 2.3247,.2106 .2106 2.3247,.2893 .2106 2.3247 ] }
+     coordIndex [ 3,1,2,-1,0,2,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -1 0 0,-1 0 0,-1 0 0,-1 0 0 ] }
+     coord Coordinate { point [ -.3287 .3287 .2952,-.3287 .3287 .3897,-.3287 .1712 .2952,-.3287 .1712 .3897 ] }
+     coordIndex [ 0,2,1,-1,3,1,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0,0 -1 0 ] }
+     coord Coordinate { point [ -.1777 .1712 .2338,-.1712 .1712 .2952,-.207 .1712 .1543,-.2577 .1712 .0864,-.3287 .1712 .2952,-.3256 .1712 .0357,-.3392 .1712 .2425,-.369 .1712 .1978,-.4138 .1712 .1679,-.4051 .1712 .0064,-.4665 .1712 0,-.4665 .1712 .1574,-.7873 .1712 0,-.7873 .1712 .1574,-.3287 .1712 .3897,-.1712 .1712 .3897 ] }
+     coordIndex [ 11,13,12,-1,15,14,1,-1,4,1,14,-1,1,4,0,-1,6,0,4,-1,12,10,11,-1,9,11,10,-1,11,9,8,-1,5,8,9,-1,8,5,7,-1,3,7,5,-1,7,3,6,-1,2,6,3,-1,6,2,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0 ] }
+     coord Coordinate { point [ -.1777 .3287 .2338,-.1712 .3287 .2952,-.207 .3287 .1543,-.2577 .3287 .0864,-.369 .3287 .1978,-.3392 .3287 .2425,-.3256 .3287 .0357,-.4138 .3287 .1679,-.4051 .3287 .0064,-.3287 .3287 .2952,-.4665 .3287 0,-.4665 .3287 .1574,-.7873 .3287 0,-.7873 .3287 .1574,-.3287 .3287 .3897,-.1712 .3287 .3897 ] }
+     coordIndex [ 9,14,15,-1,15,1,9,-1,0,9,1,-1,9,0,5,-1,2,5,0,-1,5,2,4,-1,3,4,2,-1,4,3,7,-1,12,13,10,-1,11,10,13,-1,10,11,8,-1,7,8,11,-1,8,7,6,-1,3,6,7,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 .98 .196,0 .98 .196,0 .98 .196,0 .98 .196 ] }
+     coord Coordinate { point [ -.1712 .3287 2.1279,-.3287 .3287 2.1279,-.2106 .2893 2.3247,-.2893 .2893 2.3247 ] }
+     coordIndex [ 2,0,3,-1,1,3,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ .98 0 .196,.98 0 .196,.98 0 .196,.98 0 .196 ] }
+     coord Coordinate { point [ -.1712 .3287 2.1279,-.2106 .2893 2.3247,-.2106 .2106 2.3247,-.1712 .1712 2.1279 ] }
+     coordIndex [ 0,1,3,-1,2,3,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -.98 0 .196,-.98 0 .196,-.98 0 .196,-.98 0 .196 ] }
+     coord Coordinate { point [ -.3287 .3287 2.1279,-.2893 .2893 2.3247,-.2893 .2106 2.3247,-.3287 .1712 2.1279 ] }
+     coordIndex [ 1,0,2,-1,3,2,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 -.98 .196,0 -.98 .196,0 -.98 .196,0 -.98 .196 ] }
+     coord Coordinate { point [ -.2106 .2106 2.3247,-.2893 .2106 2.3247,-.1712 .1712 2.1279,-.3287 .1712 2.1279 ] }
+     coordIndex [ 1,3,0,-1,2,0,3,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -.196 -.98 0,-.196 -.98 0,-.196 -.98 0,-.196 -.98 0 ] }
+     coord Coordinate { point [ -.9842 .2106 .0393,-.9842 .2106 .1181,-.7873 .1712 0,-.7873 .1712 .1574 ] }
+     coordIndex [ 3,1,2,-1,0,2,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -.196 0 .98,-.196 0 .98,-.196 0 .98,-.196 0 .98 ] }
+     coord Coordinate { point [ -.7873 .3287 .1574,-.9842 .2893 .1181,-.9842 .2106 .1181,-.7873 .1712 .1574 ] }
+     coordIndex [ 2,3,1,-1,0,1,3,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -.196 0 -.98,-.196 0 -.98,-.196 0 -.98,-.196 0 -.98 ] }
+     coord Coordinate { point [ -.7873 .3287 0,-.9842 .2893 .0393,-.9842 .2106 .0393,-.7873 .1712 0 ] }
+     coordIndex [ 3,2,0,-1,1,0,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -.196 .98 0,-.196 .98 0,-.196 .98 0,-.196 .98 0 ] }
+     coord Coordinate { point [ -.7873 .3287 0,-.7873 .3287 .1574,-.9842 .2893 .0393,-.9842 .2893 .1181 ] }
+     coordIndex [ 0,2,1,-1,3,1,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 -1 0,0 -1 0,0 -1 0,0 -1 0 ] }
+     coord Coordinate { point [ -.1712 .1712 2.1279,-.3287 .1712 .8267,-.3287 .1712 2.1279,-.1712 .1712 .8267 ] }
+     coordIndex [ 0,2,3,-1,1,3,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 1 0,0 1 0,0 1 0,0 1 0 ] }
+     coord Coordinate { point [ -.1712 .3287 .8267,-.1712 .3287 2.1279,-.3287 .3287 .8267,-.3287 .3287 2.1279 ] }
+     coordIndex [ 2,3,0,-1,1,0,3,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -1 0 0,-1 0 0,-1 0 0,-1 0 0 ] }
+     coord Coordinate { point [ -.3287 .3287 .8267,-.3287 .3287 2.1279,-.3287 .1712 .8267,-.3287 .1712 2.1279 ] }
+     coordIndex [ 3,1,2,-1,0,2,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -.707 0 .707,-.923 0 .382,-.382 0 .923,-1 0 0,0 0 1,-1 0 0,-.707 0 .707,-.923 0 .382,-.382 0 .923,0 0 1 ] }
+     coord Coordinate { point [ -.369 .3287 .1978,-.3392 .3287 .2425,-.4138 .3287 .1679,-.3287 .3287 .2952,-.4665 .3287 .1574,-.3287 .1712 .2952,-.369 .1712 .1978,-.3392 .1712 .2425,-.4138 .1712 .1679,-.4665 .1712 .1574 ] }
+     coordIndex [ 4,9,2,-1,8,2,9,-1,2,8,0,-1,6,0,8,-1,0,6,1,-1,7,1,6,-1,1,7,3,-1,5,3,7,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 1,0 0 1,0 0 1,0 0 1 ] }
+     coord Coordinate { point [ -.4665 .3287 .1574,-.7873 .3287 .1574,-.4665 .1712 .1574,-.7873 .1712 .1574 ] }
+     coordIndex [ 3,2,1,-1,0,1,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -1 0 0,-1 0 0,-1 0 0,-1 0 0 ] }
+     coord Coordinate { point [ -.9842 .2893 .0393,-.9842 .2893 .1181,-.9842 .2106 .0393,-.9842 .2106 .1181 ] }
+     coordIndex [ 3,1,2,-1,0,2,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 -1,0 0 -1,0 0 -1,0 0 -1 ] }
+     coord Coordinate { point [ -.4665 .3287 0,-.7873 .3287 0,-.4665 .1712 0,-.7873 .1712 0 ] }
+     coordIndex [ 1,0,3,-1,2,3,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ .978 0 -.207,1 0 0,.878 0 -.477,.707 0 -.707,.477 0 -.878,.207 0 -.978,0 0 -1,.978 0 -.207,1 0 0,.878 0 -.477,.707 0 -.707,.477 0 -.878,.207 0 -.978,0 0 -1 ] }
+     coord Coordinate { point [ -.1777 .3287 .2338,-.1712 .3287 .2952,-.207 .3287 .1543,-.2577 .3287 .0864,-.3256 .3287 .0357,-.4051 .3287 .0064,-.4665 .3287 0,-.1777 .1712 .2338,-.1712 .1712 .2952,-.207 .1712 .1543,-.2577 .1712 .0864,-.3256 .1712 .0357,-.4051 .1712 .0064,-.4665 .1712 0 ] }
+     coordIndex [ 13,6,5,-1,13,5,12,-1,4,12,5,-1,12,4,11,-1,3,11,4,-1,11,3,10,-1,2,10,3,-1,10,2,9,-1,0,9,2,-1,9,0,7,-1,1,7,0,-1,7,1,8,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 1 0 0,1 0 0,1 0 0,1 0 0 ] }
+     coord Coordinate { point [ -.1712 .3287 .8267,-.1712 .3287 2.1279,-.1712 .1712 2.1279,-.1712 .1712 .8267 ] }
+     coordIndex [ 1,2,0,-1,3,0,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F29D
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 1,0 0 1,0 0 1,0 0 1 ] }
+     coord Coordinate { point [ -.2106 .2893 2.3247,-.2893 .2893 2.3247,-.2106 .2106 2.3247,-.2893 .2106 2.3247 ] }
+     coordIndex [ 1,3,0,-1,2,0,3,-1 ] }
+    }
+   Shape {
+    appearance DEF S0x4006F333 Appearance {
+     material Material {
+      ambientIntensity 0.188
+      diffuseColor 0.188 0.188 0.188
+      emissiveColor 0 0 0
+      specularColor 1 1 1
+      shininess 1
+      transparency 0
+     }
+    }
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1,0 0 -1 ] }
+     coord Coordinate { point [ -.4724 .4999 .2362,.4724 .4999 .2362,-.6692 .4409 .2362,.6692 .4409 .2362,-.6692 .3484 .2362,-.1712 .3484 .2362,.1712 .3484 .2362,.6692 .3484 .2362,-.6692 .1515 .2362,-.1712 .1515 .2362,.1712 .1515 .2362,.6692 .1515 .2362,-.6692 .059 .2362,.6692 .059 .2362,.4724 0 .2362,-.4724 0 .2362,-.6692 -.059 .2362,.6692 -.059 .2362,-.6692 -.1515 .2362,-.1712 -.1515 .2362,.1712 -.1515 .2362,.6692 -.1515 .2362,-.6692 -.3484 .2362,-.1712 -.3484 .2362,.1712 -.3484 .2362,.6692 -.3484 .2362,-.6692 -.4409 .2362,.6692 -.4409 .2362,-.4724 -.4999 .2362,.4724 -.4999 .2362 ] }
+     coordIndex [ 25,27,24,-1,29,24,27,-1,4,2,5,-1,0,5,2,-1,26,22,28,-1,23,28,22,-1,29,28,24,-1,23,24,28,-1,24,23,20,-1,19,20,23,-1,3,7,1,-1,6,1,7,-1,0,1,5,-1,6,5,1,-1,5,6,9,-1,10,9,6,-1,18,16,19,-1,15,19,16,-1,19,15,20,-1,14,20,15,-1,20,14,21,-1,17,21,14,-1,11,13,10,-1,14,10,13,-1,10,14,9,-1,15,9,14,-1,9,15,8,-1,12,8,15,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -1 0 0,-1 0 0,-1 0 0,-1 0 0,-1 0 0,-1 0 0,-1 0 0,-1 0 0 ] }
+     coord Coordinate { point [ -.6692 -.059 .2362,-.6692 -.059 .8267,-.6692 -.1515 .2362,-.6692 -.1712 .3897,-.6692 -.3287 .3897,-.6692 -.3484 .2362,-.6692 -.4409 .2362,-.6692 -.4409 .8267 ] }
+     coordIndex [ 5,6,4,-1,7,4,6,-1,4,7,3,-1,1,3,7,-1,3,1,2,-1,0,2,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -1 0 0,-1 0 0,-1 0 0,-1 0 0,-1 0 0,-1 0 0,-1 0 0,-1 0 0 ] }
+     coord Coordinate { point [ -.6692 .4409 .2362,-.6692 .4409 .8267,-.6692 .3484 .2362,-.6692 .3287 .3897,-.6692 .1712 .3897,-.6692 .1515 .2362,-.6692 .059 .2362,-.6692 .059 .8267 ] }
+     coordIndex [ 5,6,4,-1,7,4,6,-1,4,7,3,-1,1,3,7,-1,3,1,2,-1,0,2,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1,0 0 1 ] }
+     coord Coordinate { point [ -.4724 .4999 .8267,.4724 .4999 .8267,-.6692 .4409 .8267,.6692 .4409 .8267,-.1712 .3287 .8267,-.3287 .3287 .8267,.3287 .3287 .8267,.1712 .3287 .8267,-.3287 .1712 .8267,.1712 .1712 .8267,.3287 .1712 .8267,-.1712 .1712 .8267,-.6692 .059 .8267,.6692 .059 .8267,-.4724 0 .8267,.4724 0 .8267,-.6692 -.059 .8267,.6692 -.059 .8267,-.1712 -.1712 .8267,-.3287 -.1712 .8267,.3287 -.1712 .8267,.1712 -.1712 .8267,-.3287 -.3287 .8267,.1712 -.3287 .8267,.3287 -.3287 .8267,-.1712 -.3287 .8267,-.6692 -.4409 .8267,.6692 -.4409 .8267,-.4724 -.4999 .8267,.4724 -.4999 .8267 ] }
+     coordIndex [ 9,19,18,-1,29,27,24,-1,17,24,27,-1,24,17,20,-1,15,20,17,-1,2,12,14,-1,8,5,0,-1,4,0,5,-1,0,4,1,-1,15,10,20,-1,9,20,10,-1,20,9,21,-1,18,21,9,-1,21,18,23,-1,25,23,18,-1,22,19,16,-1,24,23,29,-1,25,29,23,-1,29,25,28,-1,22,28,25,-1,28,22,26,-1,16,26,22,-1,0,2,8,-1,14,8,2,-1,8,14,11,-1,15,13,10,-1,3,10,13,-1,10,3,6,-1,1,6,3,-1,6,1,7,-1,4,7,1,-1,7,4,9,-1,11,9,4,-1,9,11,19,-1,14,19,11,-1,19,14,16,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 -1 0,0 -1 0,0 -1 0,0 -1 0 ] }
+     coord Coordinate { point [ -.4724 -.4999 .2362,-.4724 -.4999 .8267,.4724 -.4999 .2362,.4724 -.4999 .8267 ] }
+     coordIndex [ 0,2,1,-1,3,1,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 1 0,0 1 0,0 1 0,0 1 0 ] }
+     coord Coordinate { point [ -.4724 .4999 .2362,-.4724 .4999 .8267,.4724 .4999 .2362,.4724 .4999 .8267 ] }
+     coordIndex [ 1,3,0,-1,2,0,3,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 1 0 0,1 0 0,1 0 0,1 0 0,1 0 0,1 0 0,1 0 0,1 0 0 ] }
+     coord Coordinate { point [ .6692 -.059 .2362,.6692 -.059 .8267,.6692 -.1515 .2362,.6692 -.1712 .3897,.6692 -.3287 .3897,.6692 -.3484 .2362,.6692 -.4409 .2362,.6692 -.4409 .8267 ] }
+     coordIndex [ 2,0,3,-1,1,3,0,-1,3,1,4,-1,7,4,1,-1,4,7,5,-1,6,5,7,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 1 0 0,1 0 0,1 0 0,1 0 0,1 0 0,1 0 0,1 0 0,1 0 0 ] }
+     coord Coordinate { point [ .6692 .4409 .2362,.6692 .4409 .8267,.6692 .3484 .2362,.6692 .3287 .3897,.6692 .1712 .3897,.6692 .1515 .2362,.6692 .059 .2362,.6692 .059 .8267 ] }
+     coordIndex [ 2,0,3,-1,1,3,0,-1,3,1,4,-1,7,4,1,-1,4,7,5,-1,6,5,7,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ .287 .957 0,.287 .957 0,.287 .957 0,.287 .957 0 ] }
+     coord Coordinate { point [ .4724 .4999 .2362,.4724 .4999 .8267,.6692 .4409 .2362,.6692 .4409 .8267 ] }
+     coordIndex [ 3,2,1,-1,0,1,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ .287 .957 0,.287 .957 0,.287 .957 0,.287 .957 0 ] }
+     coord Coordinate { point [ .4724 0 .2362,.4724 0 .8267,.6692 -.059 .2362,.6692 -.059 .8267 ] }
+     coordIndex [ 3,2,1,-1,0,1,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ .287 -.957 0,.287 -.957 0,.287 -.957 0,.287 -.957 0 ] }
+     coord Coordinate { point [ .6692 .059 .2362,.6692 .059 .8267,.4724 0 .2362,.4724 0 .8267 ] }
+     coordIndex [ 3,2,1,-1,0,1,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ .287 -.957 0,.287 -.957 0,.287 -.957 0,.287 -.957 0 ] }
+     coord Coordinate { point [ .6692 -.4409 .2362,.6692 -.4409 .8267,.4724 -.4999 .2362,.4724 -.4999 .8267 ] }
+     coordIndex [ 3,2,1,-1,0,1,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -.287 .957 0,-.287 .957 0,-.287 .957 0,-.287 .957 0 ] }
+     coord Coordinate { point [ -.4724 .4999 .2362,-.4724 .4999 .8267,-.6692 .4409 .2362,-.6692 .4409 .8267 ] }
+     coordIndex [ 1,0,3,-1,2,3,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -.287 .957 0,-.287 .957 0,-.287 .957 0,-.287 .957 0 ] }
+     coord Coordinate { point [ -.4724 0 .2362,-.4724 0 .8267,-.6692 -.059 .2362,-.6692 -.059 .8267 ] }
+     coordIndex [ 1,0,3,-1,2,3,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -.287 -.957 0,-.287 -.957 0,-.287 -.957 0,-.287 -.957 0 ] }
+     coord Coordinate { point [ -.6692 .059 .2362,-.6692 .059 .8267,-.4724 0 .2362,-.4724 0 .8267 ] }
+     coordIndex [ 1,0,3,-1,2,3,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -.287 -.957 0,-.287 -.957 0,-.287 -.957 0,-.287 -.957 0 ] }
+     coord Coordinate { point [ -.6692 -.4409 .2362,-.6692 -.4409 .8267,-.4724 -.4999 .2362,-.4724 -.4999 .8267 ] }
+     coordIndex [ 1,0,3,-1,2,3,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 1 0 0,1 0 0,1 0 0,1 0 0,1 0 0,1 0 0 ] }
+     coord Coordinate { point [ .1712 .3484 .2362,.1712 .3287 .2952,.1712 .3287 .3897,.1712 .1712 .2952,.1712 .1712 .3897,.1712 .1515 .2362 ] }
+     coordIndex [ 0,2,1,-1,0,1,5,-1,3,5,1,-1,5,3,4,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -1 0 0,-1 0 0,-1 0 0,-1 0 0,-1 0 0,-1 0 0 ] }
+     coord Coordinate { point [ -.1712 .3484 .2362,-.1712 .3287 .2952,-.1712 .3287 .3897,-.1712 .1712 .2952,-.1712 .1712 .3897,-.1712 .1515 .2362 ] }
+     coordIndex [ 1,2,0,-1,1,0,3,-1,5,3,0,-1,3,5,4,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 1 0 0,1 0 0,1 0 0,1 0 0,1 0 0,1 0 0 ] }
+     coord Coordinate { point [ .1712 -.1515 .2362,.1712 -.1712 .2952,.1712 -.1712 .3897,.1712 -.3287 .2952,.1712 -.3287 .3897,.1712 -.3484 .2362 ] }
+     coordIndex [ 0,2,1,-1,0,1,5,-1,3,5,1,-1,5,3,4,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ -1 0 0,-1 0 0,-1 0 0,-1 0 0,-1 0 0,-1 0 0 ] }
+     coord Coordinate { point [ -.1712 -.1515 .2362,-.1712 -.1712 .2952,-.1712 -.1712 .3897,-.1712 -.3287 .2952,-.1712 -.3287 .3897,-.1712 -.3484 .2362 ] }
+     coordIndex [ 1,2,0,-1,1,0,3,-1,5,3,0,-1,3,5,4,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 -.991 -.127,0 -.991 -.127,0 -.991 -.127,0 -.991 -.127,0 -.991 -.127 ] }
+     coord Coordinate { point [ -.6692 .3484 .2362,-.1712 .3484 .2362,-.6692 .3287 .3897,-.3287 .3287 .3897,-.1712 .3287 .3897 ] }
+     coordIndex [ 2,0,3,-1,1,3,0,-1,3,1,4,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 -1,0 0 -1,0 0 -1,0 0 -1 ] }
+     coord Coordinate { point [ -.6692 .3287 .3897,-.3287 .3287 .3897,-.6692 .1712 .3897,-.3287 .1712 .3897 ] }
+     coordIndex [ 0,1,2,-1,3,2,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 .991 -.127,0 .991 -.127,0 .991 -.127,0 .991 -.127,0 .991 -.127 ] }
+     coord Coordinate { point [ -.6692 .1712 .3897,-.3287 .1712 .3897,-.1712 .1712 .3897,-.6692 .1515 .2362,-.1712 .1515 .2362 ] }
+     coordIndex [ 3,0,4,-1,1,4,0,-1,4,1,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 -.991 -.127,0 -.991 -.127,0 -.991 -.127,0 -.991 -.127,0 -.991 -.127 ] }
+     coord Coordinate { point [ -.6692 -.1515 .2362,-.1712 -.1515 .2362,-.6692 -.1712 .3897,-.3287 -.1712 .3897,-.1712 -.1712 .3897 ] }
+     coordIndex [ 2,0,3,-1,1,3,0,-1,3,1,4,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 -1,0 0 -1,0 0 -1,0 0 -1 ] }
+     coord Coordinate { point [ -.6692 -.1712 .3897,-.3287 -.1712 .3897,-.6692 -.3287 .3897,-.3287 -.3287 .3897 ] }
+     coordIndex [ 0,1,2,-1,3,2,1,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 .991 -.127,0 .991 -.127,0 .991 -.127,0 .991 -.127,0 .991 -.127 ] }
+     coord Coordinate { point [ -.6692 -.3287 .3897,-.3287 -.3287 .3897,-.1712 -.3287 .3897,-.6692 -.3484 .2362,-.1712 -.3484 .2362 ] }
+     coordIndex [ 3,0,4,-1,1,4,0,-1,4,1,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 -.991 -.127,0 -.991 -.127,0 -.991 -.127,0 -.991 -.127,0 -.991 -.127 ] }
+     coord Coordinate { point [ .1712 .3484 .2362,.6692 .3484 .2362,.1712 .3287 .3897,.3287 .3287 .3897,.6692 .3287 .3897 ] }
+     coordIndex [ 1,4,0,-1,3,0,4,-1,0,3,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 .991 -.127,0 .991 -.127,0 .991 -.127,0 .991 -.127,0 .991 -.127 ] }
+     coord Coordinate { point [ .1712 .1712 .3897,.3287 .1712 .3897,.6692 .1712 .3897,.1712 .1515 .2362,.6692 .1515 .2362 ] }
+     coordIndex [ 2,4,1,-1,3,1,4,-1,1,3,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 -1,0 0 -1,0 0 -1,0 0 -1 ] }
+     coord Coordinate { point [ .3287 .3287 .3897,.6692 .3287 .3897,.3287 .1712 .3897,.6692 .1712 .3897 ] }
+     coordIndex [ 3,2,1,-1,0,1,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 -.991 -.127,0 -.991 -.127,0 -.991 -.127,0 -.991 -.127,0 -.991 -.127 ] }
+     coord Coordinate { point [ .1712 -.1515 .2362,.6692 -.1515 .2362,.1712 -.1712 .3897,.3287 -.1712 .3897,.6692 -.1712 .3897 ] }
+     coordIndex [ 1,4,0,-1,3,0,4,-1,0,3,2,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 .991 -.127,0 .991 -.127,0 .991 -.127,0 .991 -.127,0 .991 -.127 ] }
+     coord Coordinate { point [ .1712 -.3287 .3897,.3287 -.3287 .3897,.6692 -.3287 .3897,.1712 -.3484 .2362,.6692 -.3484 .2362 ] }
+     coordIndex [ 2,4,1,-1,3,1,4,-1,1,3,0,-1 ] }
+    }
+   Shape {
+    appearance USE S0x4006F333
+    geometry IndexedFaceSet {
+     solid FALSE
+     normal Normal { vector [ 0 0 -1,0 0 -1,0 0 -1,0 0 -1 ] }
+     coord Coordinate { point [ .3287 -.1712 .3897,.6692 -.1712 .3897,.3287 -.3287 .3897,.6692 -.3287 .3897 ] }
+     coordIndex [ 3,2,1,-1,0,1,2,-1 ] }
+    }
+   ]
+  }
+ ]
+}
