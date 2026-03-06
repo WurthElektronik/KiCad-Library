@@ -1,53 +1,22 @@
-**KiCad Library for Würth Elektronik Products**
-=
-
+`KiCad Libraries for Würth Elektronik Products`
+=========
 ## Introduction
-KiCad is a free and open-source software suite for electronic design automation (EDA). It facilitates the design and simulation of electronic hardware. It features an integrated environment for schematic capture, PCB layout, manufacturing file viewing, SPICE simulation, and engineering calculation. Tools exist within the package to create bill of materials, artwork, Gerber files, and 3D models of the PCB and its components.
+Welcome to Würth Elektronik KiCad Library repository. <br>
+The libraries are created and maintained by Würth Elektronik EDA Team, for any questions and suggestions please feel free to contact EDA team by email: <libraries@we-online.com>
 
-[Würth Elektronik](https://www.we-online.com/) has a growing portfolio of models available for use in KiCad. These models allow KiCad users to easily design schematic and layout and view 3D model before producing PCB.
+## Library Component Coverage
+* Electromechanical Components <br>
+_Assembly, Connectors, REDCUBE Terminals, Switches_
 
-For how to use models in GitHub repository, you can refer to the User_Guide_WE_KiCad_Library in this folder. If you have any advice or questions, please send email to libraries@we-online.com or Melon.Huang@we-online.com to let us know.
+* Optoelectronic Components <br>
+_7 Segments Display, IC LEDs, Infrared, Laser, LEDs, Optical Sensors, Optocoupler, Ultraviolet_
 
-**Please read Disclaimer carefully before downloading and using Würth Elektronik Models.**
+* Passive Components <br>
+_Capacitors, Crystals & Oscillators, EMC & RFI Components, Inductors, Resistors, Signal & Communications, Transformers_
 
-**Note: KiCad library in GitHub repository is always the latest.**
-## Structure Classification
+* Power Modules (MagI3C Series) <br>
+_Digital Isolator, Isolated Converter, LED Driver, Step Down Converter_
 
-* 3dmodels
-  * .step and .wrl
-* footprints
-  * .kicad_mod
-* symbols
-  * .kicad_sym
-* netlists (attached in symbol, coming soon, will be released in the near future)
-  * .lib
-
-## Component Classification
-* WE - Electromechanical Components
-
-  * Assembly
-  * Connectors
-  * REDCUBE Terminals
-  * Switches
-* WE - Optoelectronic Components
-
-  * 7 Segments Display
-  * Infrared
-  * Laser
-  * LEDs
-  * Optocoupler
-  * Ultraviolet
-* WE - Passive Components
-
-  * Capacitors
-  * Crystals & Oscillators
-  * EMC & RFI Components
-  * Inductors
-  * Resistors
-  * Signal & Communications
-  * Transformers
-* WE - Power Modules
-
-  * LED Driver
-  * Step Down Converter
-  * Isolated Converter
+## More Library Repositories Provided By Würth Elektronik
+**PCB Library**: [Cadence](https://github.com/WurthElektronik/Cadence-Library), [Eagle](https://github.com/WurthElektronik/Eagle-Library), [Altium](https://github.com/WurthElektronik/Altium-Library)    <br>
+**Simulation Library**: [ADS](https://github.com/WurthElektronik/ADS-Library), [Ansys](https://github.com/WurthElektronik/Ansys-Library), [IBIS](https://github.com/WurthElektronik/IBIS-Library), [LTspice](https://github.com/WurthElektronik/LTspice-Library), [Pspice](https://github.com/WurthElektronik/Pspice-Library), [Qspice](https://github.com/WurthElektronik/Qspice-Library)
