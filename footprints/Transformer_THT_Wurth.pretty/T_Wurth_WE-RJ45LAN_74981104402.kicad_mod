@@ -11,19 +11,22 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp cc6e9de1-58e2-49f5-ad38-11b587e7fa36)
   )
+  (fp_text user "Stencil Thickness=0.2mm" (at 1.27 7.62) (layer "F.Fab")
+      (effects (font (size 0.5 0.5) (thickness 0.075)) (justify left))
+    (tstamp 50566e27-d3ed-43d6-9bf8-1f1496dae662)
+  )
   (fp_text user "${REFERENCE}" (at 5.715 8.89 unlocked) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.075)))
     (tstamp 6583abcd-eeea-4089-b3bd-f2f9e990df3e)
   )
-  (fp_poly
-    (pts
-      (xy 0.23 14.3)
-      (xy -1.97 14.3)
-      (xy -1.97 11.7)
-      (xy 0.23 11.7)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Paste") (tstamp 52debc6a-02a9-4ddb-aff7-bada9cc7469f))
+  (fp_text user "PCB Thickness=1.6mm" (at 1.27 6.684) (layer "F.Fab")
+      (effects (font (size 0.5 0.5) (thickness 0.075)) (justify left))
+    (tstamp bf3ae356-b9a4-48eb-adf9-0ea591ec6867)
+  )
+  (fp_text user "The Stencil Layout Designed for " (at 1.27 5.584) (layer "F.Fab")
+      (effects (font (size 0.5 0.5) (thickness 0.075)) (justify left))
+    (tstamp fab4f2f8-ed85-4573-b925-01377a22a2dd)
+  )
   (fp_poly
     (pts
       (xy 1.02 0.94)
@@ -51,15 +54,6 @@
     )
 
     (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Paste") (tstamp 1e4ecfa1-7d71-43c6-a240-51289de0165a))
-  (fp_poly
-    (pts
-      (xy 2.77 14.3)
-      (xy 0.57 14.3)
-      (xy 0.57 11.7)
-      (xy 2.77 11.7)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Paste") (tstamp 7f9e55da-8e0a-40a3-8f4b-f73bd29769dc))
   (fp_poly
     (pts
       (xy 3.56 0.94)
@@ -98,15 +92,6 @@
     (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Paste") (tstamp 9553311a-40d1-42ff-ba52-5139187bbcf3))
   (fp_poly
     (pts
-      (xy 8.14 14.3)
-      (xy 10.34 14.3)
-      (xy 10.34 11.7)
-      (xy 8.14 11.7)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Paste") (tstamp 5e2e5f84-859a-46b9-a1ef-d6fadaab41fa))
-  (fp_poly
-    (pts
       (xy 8.64 0.94)
       (xy 6.44 0.94)
       (xy 6.44 -1.66)
@@ -123,15 +108,6 @@
     )
 
     (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Paste") (tstamp 3ec71a18-9737-4bad-b060-44768abaf579))
-  (fp_poly
-    (pts
-      (xy 10.68 14.3)
-      (xy 12.88 14.3)
-      (xy 12.88 11.7)
-      (xy 10.68 11.7)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Paste") (tstamp b21b1bff-32b7-4fb0-b5d9-6274bdc504f0))
   (fp_poly
     (pts
       (xy 11.18 0.94)
@@ -173,12 +149,14 @@
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 3dc012a7-7273-4282-a4ae-b7cfd5e25e04))
   (fp_rect (start -3.585 -2.21) (end 15.015 14.99)
     (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp c59229a3-86b5-4fa0-b370-0dcefafecba9))
-  (fp_line (start 0 8.89) (end 5.715 8.89)
-    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp 16fdc3aa-cc3a-45f3-8b6f-8ec61dacb6cb))
   (fp_rect (start -2.31 -1.96) (end 13.74 14.74)
     (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab") (tstamp d1054ac1-00ea-450e-90cd-5149c594db81))
+  (pad "" smd rect (at -0.61 12.23) (size 2.2 2.6) (layers "F.Paste") (tstamp 42a35122-769a-4af7-8faa-ec8e2b082256))
   (pad "" np_thru_hole circle (at 0 8.89 180) (size 3.2 3.2) (drill 3.2) (layers "*.Cu" "*.Mask") (tstamp 81469007-dec8-4777-95f4-0eeee4f9242c))
+  (pad "" smd rect (at 1.93 13) (size 2.2 2.6) (layers "F.Paste") (tstamp 2ae7f05e-92c2-45ff-9f10-52f88811a60f))
+  (pad "" smd rect (at 9.5 13) (size 2.2 2.6) (layers "F.Paste") (tstamp bdf8e6df-3839-45c7-94fb-be3ac3512090))
   (pad "" np_thru_hole circle (at 11.43 8.89 180) (size 3.2 3.2) (drill 3.2) (layers "*.Cu" "*.Mask") (tstamp aeab2048-8cbb-4522-8207-8b3e47ae04ea))
+  (pad "" smd rect (at 12.04 12.23) (size 2.2 2.6) (layers "F.Paste") (tstamp c9668197-867a-4abd-8598-20707d9d0396))
   (pad "1" thru_hole rect (at 0 0 180) (size 1.398 1.398) (drill 0.89) (layers "*.Cu" "*.Mask") (tstamp 620d922a-4807-4b0e-81b6-768d7044fb9c))
   (pad "2" thru_hole circle (at 1.27 2.54 180) (size 1.398 1.398) (drill 0.89) (layers "*.Cu" "*.Mask") (tstamp bca1f833-cd5d-4bc1-b1f1-4b259923f90c))
   (pad "3" thru_hole circle (at 2.54 0 180) (size 1.398 1.398) (drill 0.89) (layers "*.Cu" "*.Mask") (tstamp 95968dc7-48fc-4410-b136-9379c22b3e9b))
